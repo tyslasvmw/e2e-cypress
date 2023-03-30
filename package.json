@@ -1,0 +1,20 @@
+{
+  "name": "e2e-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tyslasvmw/e2e-cypress.git",
+  "author": "Tito Yslas <roberto.yslas.ctr@army.mil>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "start:frontend": "./start-frontend.sh",
+    "open": "yarn cypress:open"
+  }
+}
